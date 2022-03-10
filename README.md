@@ -1,5 +1,5 @@
 # PYSCRIBE (supplementary)
-This is a supplementary experiment for PYSCRIBE model.
+This is a supplementary experiment for [PYSCRIBE model](https://github.com/SMAT-Lab/PyScribe).
 
 # Runtime Environment
 Runtime Environment in our experiments:
