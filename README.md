@@ -13,6 +13,7 @@ Runtime Environment in our experiments:
 - Specifically, install our package with ```pip install my-lib-0.0.9.tar.gz``` for both Python 3.x and Python 2.7. The package can be downloaded from [Google Drive](https://drive.google.com/file/d/1BH50DVFmzcAUM7usnngusXSUM8S3bOQi/view?usp=sharing)
 
 # Dataset
+we provide the supplementary experiment on two datasets including a Python dataset[1] and a Java dataset[2].
 The whole datasets of Python and Java can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1Xdk3QLQmRK7ogHCV2ZlxMYaMBlONlZb1?usp=sharing).
 
 # Experiment on the Python Dataset
@@ -68,5 +69,8 @@ python s3_eval_res.py"
 - all the parameters are set in `src_code/java/config.py`.
 - If the model has been trained, you can set the parameter "train_mode" in line 117 in `config.py` to "False". Then you can predict the test data directly by using the model that has been saved in `data/java/model/`.
 
+<font size=2>[1] Wan, Y., Zhao, Z., Yang, M., Xu, G., Ying, H., Wu, J., Yu, P.S.: Improving automatic source code summarization via deep reinforcement learning. In: Proceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering, pp. 397–407 (2018).
+
+[2] Hu, X., Li, G., Xia, X., Lo, D., Lu, S., Jin, Z.: Summarizing source code with transferred api knowledge. IJCAI’18, pp. 2269–2275 (2018).</font>
 
 ***This work is still under review, please do not distribute it.***
